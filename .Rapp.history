@@ -1,0 +1,264 @@
+list.file
+list.file()
+list.files()
+read.csv("hw1_data.csv")
+head(Ozone)
+head(hw1_data)
+head(hw1_data.csv)
+head("hw1_data.csv")
+summary("hw1_data.csv")
+dim("hw1_data.casv")
+dim("hw1_data.csv")
+str("hw1_data.csv")
+mean($Ozone, na.rm=TRUE)
+mean([[Ozone]], na.rm=TRUE)
+mean(Ozone, na.rm=TRUE)
+summary("hw1_data.csv")
+read.csv("hw1_data.csv")
+mean(Ozone, na.rm=TRUE)
+head(read.csv("hw1_data", Ozone=TRUE))
+head(read.csv("hw1_data")
+ozone<-read("hw1_data")
+ozone<-read.data("hw1_data")
+ozone<-read.data("hw1_data.csv")
+ozone<-read.csv("hw1_data.csv")
+ozone[mean($Ozone)]
+ozone[mean(Ozone)]
+ozone[mean("Ozone")]
+mean(ozone)
+mean(ozone$Ozone)
+mean(ozone$Ozone, NA=FALSE)
+mean(ozone$Ozone)
+mean(dataset[, "Ozone"], na.rm = TRUE)
+subset(dataset, Ozone > 31 & Temp > 90)
+mean(ozone$"Ozone")
+mean(dataset[, "Ozone"], na.rm = TRUE)
+subset(dataset, Ozone > 31 & Temp > 90)
+ozone<-read.csv("hw1_data.csv")
+mean(dataset[, "Ozone"], na.rm = TRUE)
+mean(ozone[, "Ozone"], na.rm = TRUE)
+subset(ozone, Ozone > 31 & Temp > 90)
+mean(267+272+203+225+237+188+167+197+183_+189)
+mean(267+272+203+225+237+188+167+197+183+189)
+Mean_Temp_Mo6 = subset(ozone, Month == 6, select=Temp)
+Mean_Temp_Mo6 = subset("hw1_dataset.csv", Month == 6, select=Temp)
+Mean_Temp_Mo6 = subset("hw1_data.csv", Month == 6, select=Temp)
+Mean_Temp_Mo6 = subset('hw1_data.csv', Month == 6, select=Temp)
+data=read.csv("hw1_data.csv")
+month=subset(data, Month==6, select=Temp)
+apply(month, 2, mean)
+list.files()
+getwd()
+setwd("/Users/richardgenova")
+list.files()
+library(datasets)#
+data(iris)
+?iris
+tapply(Sepal.Length, Species, mean)["virginica"]
+tapply(Sepal.Length, iris, mean)["virginica"]
+mean(iris[iris$Species == "virginica",]$Sepal.Length)
+colMeans(iris)
+apply(iris[, 1:4], 2, mean)
+?mtcars
+library(datasets)#
+data(mtcars)
+?mtcars
+tapply(mtcars$cyl, mtcars$mpg, mean)
+mean(mtcars$mpg, mtcars$cyl)
+sapply(split(mtcars$mpg, mtcars$cyl), mean)
+split(mtcars, mtcars$cyl)
+mean(mtcars$mpg, mtcars$cyl)
+mean(mtcars[mtcars$cyl == "8",]$hp) - mean(mtcars[mtcars$cyl == "4",]$hp)
+debug(ls)
+ls
+debug(ls)
+ls()
+end
+quit()
+exit()
+break
+break()
+cmd(exit)
+terminate
+terminate()
+end()
+end
+quit
+gc
+gc()
+stop
+set.seed(1)#
+rpois(5, 2)
+rnorm()
+rnorm(1)
+pnorm(1)
+qnorm(1)
+dnorm(1)
+set.seed(10)#
+x <- rep(0:1, each = 5)#
+e <- rnorm(10, 0, 20)#
+y <- 0.5 + 2 * x + e
+library(datasets)#
+Rprof()#
+fit <- lm(y ~ x1 + x2)#
+Rprof(NULL)
+library(swirl)
+ls()
+rm(list-ls())
+rm(list=ls())
+swirl()
+2
+ls()
+ls
+ls()
+quit()
+library(swirl)
+ls()
+rm(list=ls())
+swirl()
+?dir.create
+1 + 1
+"hello"
+x <- 1 + 1
+x
+y <- 100
+x + y
+z <- x + y
+z
+first_part <-
+first_part <- "hello"
+second_part <- "world"
+first_part + second_part
+paste(first_part, second_part, " ")
+paste(first_part, second_part, "")
+paste(first_part, second_part)
+typeof(first_part)
+typeof(z)
+some_vector <- c(1, 2, 3, 4, 5)
+another_vector <- c(6, 7, 8, 9, 10)
+combined_vector <- c(some_vector, another_vector)
+combined_vector
+c(100, "hello")
+c("hello, 100")
+c("hello", 100)
+# Data Frame
+first column <- combined vector
+first_column <- combined vector
+first_column <- combined_vector
+second_column <- c("h, "e", "l", "o", "w", "o", "r", "l", "d")
+second_column <- c("h", "e", "l", "o", "w", "o", "r", "l", "d")
+a_df <- data.frame(first_column, second_column, stringsAsFactors = FALSE)
+a_df <- data.frame(first_column, second_column, stringsAsFactors=FALSE)
+second_column <- c("h", "e", "l", "o", "w", "o", "r", "l", "x", "d")
+a_df <- data.frame(first_column, second_column, stringsAsFactors=FALSE)
+a_df
+# Index on Vector
+combined_vector[1]
+combined_vector[1, 4]
+combined_vector[1:4]
+combined_vector[c(5, 7)]
+a_df[, 1]
+a_df[1,]
+a_df[1,1]
+a_df[1:2, 1]
+a_df[1:2, ]
+a_df$first_column
+a_df$second_column
+subset(a_df, first_column > 5)
+install.packages(devtools)
+install.packages
+library(devtools)
+install.packages("devtools")
+library(devtools)
+install_github("genmomicsc")
+install_github("genomicsc")
+install_github("genomicsclass/dagdata")
+install.github("ririzarr/rafalib")
+install_github("ririzarr/rafalib")
+library(swirl)
+ls()
+rm(list=ls())
+swirl()
+read.csv(path2csv, pathcsv = FALSE, stringAsFactors = FALSE)
+source(path2csv, pathcsv = FALSE, stringAsFactors = FALSE)
+read.csv
+mydf <- read.csv(path2csv, stringAsFactors = FALSE)
+mydf <- read.csv(path2csv, pathcsv = FALSE, stringAsFactors = FALSE)
+read.csv(path2csv, pathcsv = FALSE, stringAsFactors = FALSE)
+read.csv(path2csv, stringAsFactors = FALSE)
+read.csv(file = path2csv, stringAsFactors = FALSE)
+read.csv(file = path2csv)
+read.csv(path2csv, stringAsFactors = FALSE)
+read.csv(file = path2csv, path2csv = FALSE, stringAsFactors = FALSE)
+read.csv("path2csv", path2csv = FALSE, stringAsFactors = FALSE)
+?read.csv
+read.csv("path2csv", file, header = TRUE, sep = ",", quote = "\"",#
+         dec = ".", fill = TRUE, comment.char = "",path2csv = FALSE, stringAsFactors = FALSE)
+read.csv(path2csv, file, header = TRUE, sep = ",", quote = "\"",#
+         dec = ".", fill = TRUE, comment.char = "",path2csv = FALSE, stringAsFactors = FALSE)
+read.csv2(path2csv, file, header = TRUE, sep = ",", quote = "\"",#
+         dec = ".", fill = TRUE, comment.char = "",path2csv = FALSE, stringAsFactors = FALSE)
+read.csv("path2csv", path2csv = FALSE, stringAsFactors = FALSE)
+read.csv("path2csv", tf, fill = TRUE, header = FALSE,#
+         col.names = paste0("V", seq_len(ncol)))#
+unlink(tf)path2csv = FALSE, stringAsFactors = FALSE)
+read.csv("path2csv", tf, fill = TRUE, header = FALSE, path2csv = FALSE, stringAsFactors = FALSE)
+read.csv(path2csv, tf, fill = TRUE, header = FALSE, path2csv = FALSE, stringAsFactors = FALSE)
+read.csv(path2csv, tf, fill = TRUE, header = TRUE, path2csv = FALSE, stringAsFactors = FALSE)
+read.csv(path2csv, tf, fill = TRUE, path2csv = FALSE, stringAsFactors = FALSE)
+read.csv(path2csv, path2csv = FALSE, stringAsFactors = FALSE)
+skip()
+mydf <- read.csv(path2csv, stringsAsFactors = FALSE)
+dim(mydf)
+head(mydf)
+library(dplyr)
+packageVersion("dplyr")
+cran <- tbl_df(mydf)
+rm("mydf")
+cran
+getwd()
+list.files()
+source(Plot3.R)
+list.files()
+source("Plot3.R")
+list.files()
+source("Plot3.R")
+source("Plot3.R")
+source("Plot4.R")
+list.files()
+source("Plot1.R")
+source("Plot2.R")
+source("Plot3.R")
+source("Plot4.R")
+source("Plot3.R")
+source("Plot4.R")
+getwd()
+setwd(/ExploratoryDataAnalysisProject2)
+setwd(./ExploratoryDataAnalysisProject2)
+setwd("./ExploratoryDataAnalysisProject2")
+list.files()
+source("plot1.R")
+source("plot1.R")
+source("plot1.R")
+source("plot1.R")
+source("plot1.R")
+gc()
+source("plot1.R")
+list.files()
+list.files()
+source("plot1.R")
+dir()
+dir(Data)
+dir(:\"Data")
+dir(:\Data)
+dir("Data")
+source("plot1.R")
+source("plot2.R")
+source("plot1.R")
+source("plot2.R")
+source("plot3.R")
+source("plot3.R")
+source("plot3.R")
+library(ggplot2)
+source("plot3.R")
+source("plot3.R")
